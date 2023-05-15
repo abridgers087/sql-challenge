@@ -7,11 +7,7 @@ module 9 challenge
 
 2.  Data Engineering
 
-    a.  Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
-    
-        i.    Remember to specify the data types, primary keys, foreign keys, and other constraints.
-        ii.   For the primary keys, verify that the column is unique. Otherwise, create a composite keyLinks to an external site., which takes two primary keys to uniquely identify a row.
-        iii.  Be sure to create the tables in the correct order to handle the foreign keys.
+    a.  Use the included Table Schemata SQL file to set up and create tables in pgAdmin for the CSV file data.
         
     b.  Import each CSV file into its corresponding SQL table.
     
