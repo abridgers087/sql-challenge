@@ -7,11 +7,17 @@ CREATE TABLE titles (
   title VARCHAR(50)
 );
 
+--populate table
+COPY titles FROM 'Resources/titles.csv' WITH CSV HEADER;
+
 --departments table
 CREATE TABLE departments (
   dept_no VARCHAR(10) PRIMARY KEY,
   dept_name VARCHAR(50)
 );
+
+--populate table
+COPY departments FROM 'Resources/departments.csv' WITH CSV HEADER;
 
 --employees tables
 CREATE TABLE employees (
@@ -24,6 +30,9 @@ CREATE TABLE employees (
   hire_date DATE
 );
 
+--populate table
+COPY employees FROM 'Resources/employees.csv' WITH CSV HEADER;
+
 --salaries table
 CREATE TABLE salaries (
   emp_no INT,
@@ -31,6 +40,9 @@ CREATE TABLE salaries (
   PRIMARY KEY (emp_no, salary),
   FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
+
+--populate table
+COPY salaries FROM 'Resources/salaries.csv' WITH CSV HEADER;
 
 --dept_manager table
 CREATE TABLE dept_manager (
@@ -41,6 +53,9 @@ CREATE TABLE dept_manager (
   FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
+--populate table
+COPY dept_manager FROM 'Resources/dept_manager.csv' WITH CSV HEADER;
+
 --dept_emp table
 CREATE TABLE dept_emp (
   emp_no INT,
@@ -49,3 +64,6 @@ CREATE TABLE dept_emp (
   FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
   FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
+
+--populate table
+COPY dept_emp FROM 'Resources/dept_emp.csv' WITH CSV HEADER;
