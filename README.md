@@ -1,6 +1,8 @@
 # sql-challenge
 module 9 challenge
 
+All files needed for this Challenge are in the EmployeeSQL folder.
+
 1.  Data Modeling
 
     a.  Use the included Pewlett Hackard Employee Database Entity Relationship Diagram PNG file for table and relationship data. 
