@@ -1,17 +1,16 @@
 # sql-challenge
 module 9 challenge
 
-All files needed for this Challenge are in the EmployeeSQL folder.
+All of the code for this Challenge is located in the EmployeeSQL folder.
+If needed, the CSV source files are located in the Resources folders.
 
-1.  Data Modeling
+1.  Data Modeling 
 
     a.  Use the included Pewlett Hackard Employee Database Entity Relationship Diagram PNG file for table and relationship data. 
 
 2.  Data Engineering
 
-    a.  Use the included Table Schemata SQL file to set up and create tables in pgAdmin for the CSV file data.
-        
-    b.  Import each CSV file into its corresponding SQL table.
+    a.  Use the included Table Schemata SQL file to set up, create and populate tables.
     
 3.  Data Analysis
 
