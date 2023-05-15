@@ -3,7 +3,7 @@ module 9 challenge
 
 1.  Data Modeling
 
-    a.  Use the attached Pewlett Hackard Employee Database Entity Relationship Diagram for table and relationship data. 
+    a.  Use the included Pewlett Hackard Employee Database Entity Relationship Diagram PNG file for table and relationship data. 
 
 2.  Data Engineering
 
