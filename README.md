@@ -3,7 +3,7 @@ module 9 challenge
 
 1.  Data Modeling
 
-    a.  Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. 
+    a.  Use the attached Pewlett Hackard Employee Database Entity Relationship Diagram for table and relationship data. 
 
 2.  Data Engineering
 
