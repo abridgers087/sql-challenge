@@ -2,7 +2,7 @@
 module 9 challenge
 
 All of the code for this Challenge is located in the EmployeeSQL folder.
-The CSV source files are located in the Resources folders.
+The CSV source files are located in the Resources folder.
 
 1.  Data Modeling 
 
