@@ -3,19 +3,19 @@
 
 --titles table
 CREATE TABLE titles (
-  title_id VARCHAR(10) PRIMARY KEY,
+  title_id VARCHAR(10) PRIMARY KEY NOT NULL,
   title VARCHAR(50)
 );
 
 --departments table
 CREATE TABLE departments (
-  dept_no VARCHAR(10) PRIMARY KEY,
+  dept_no VARCHAR(10) PRIMARY KEY NOT NULL,
   dept_name VARCHAR(50)
 );
 
 --employees tables
 CREATE TABLE employees (
-  emp_no INT PRIMARY KEY,
+  emp_no INT PRIMARY KEY NOT NULL,
   emp_title_id VARCHAR(10) REFERENCES titles(title_id),
   birth_date DATE,
   first_name VARCHAR(50),
